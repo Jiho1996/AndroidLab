@@ -1,0 +1,7 @@
+include ':lab05'
+include ':lab04'
+include ':lab03'
+include ':lab02'
+include ':app:lab01'
+include ':app'
+rootProject.name = "AndroidLab"
