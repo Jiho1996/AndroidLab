@@ -1,12 +1,14 @@
 package org.techtown.androidlab;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import org.techtown.lab01.R;
+
 
 public class Lab01_3Activity extends AppCompatActivity implements View.OnClickListener {
 
@@ -18,7 +20,7 @@ public class Lab01_3Activity extends AppCompatActivity implements View.OnClickLi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lab01_3);
-        // View 객체 획득
+
 
         trueBtn = (Button)findViewById(R.id.btn_visible_true);
         targetTextView = (TextView)findViewById(R.id.text_visible_target);

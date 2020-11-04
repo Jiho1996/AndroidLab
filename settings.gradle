@@ -3,5 +3,5 @@ include ':lab04'
 include ':lab03'
 include ':lab02'
 include ':app:lab01'
-include ':app'
+include ':Lab01'
 rootProject.name = "AndroidLab"

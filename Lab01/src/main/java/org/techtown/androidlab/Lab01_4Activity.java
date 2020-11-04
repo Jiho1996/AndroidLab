@@ -2,16 +2,13 @@ package org.techtown.androidlab;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.TextView;
+
+import org.techtown.lab01.R;
 
 public class Lab01_4Activity extends AppCompatActivity {
     @Override
