@@ -1,3 +1,4 @@
+include ':lab06'
 include ':lab05'
 include ':lab04'
 include ':lab03'
